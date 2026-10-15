@@ -8,9 +8,16 @@ function setup() {
     ballX = 50;
     ballY = 50;
     velX = 2;
+    velY = 3;
 }
 function draw() {
     background("skyblue");
     circle(ballX,50,50);
     ballX += velX;
+    if (ballX > width) {
+        velX *= -1;
+    }
+    if (ballX < 0) {
+        velX *= -1;
+    }
 }

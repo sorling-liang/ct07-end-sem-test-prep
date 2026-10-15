@@ -7,6 +7,7 @@ function setup() {
     noStroke();
     ballX = 50;
     ballY = 50;
+    velX = 2;
 }
 function draw() {
     background("skyblue");

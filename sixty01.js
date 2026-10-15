@@ -14,11 +14,14 @@ function draw() {
     background("skyblue");
     circle(ballX,ballY,50);
     ballX += velX;
-    ballY 
+    ballY += velY;
     if (ballX > width) {
         velX *= -1;
     }
     if (ballX < 0) {
         velX *= -1;
+    }
+    if (ballY > height) {
+        velY *= -1;
     }
 }

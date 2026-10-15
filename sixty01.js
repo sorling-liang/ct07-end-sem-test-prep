@@ -12,8 +12,9 @@ function setup() {
 }
 function draw() {
     background("skyblue");
-    circle(ballX,50,50);
+    circle(ballX,ballY,50);
     ballX += velX;
+    ballY 
     if (ballX > width) {
         velX *= -1;
     }

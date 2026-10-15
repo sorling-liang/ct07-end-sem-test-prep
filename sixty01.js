@@ -24,4 +24,7 @@ function draw() {
     if (ballY > height) {
         velY *= -1;
     }
+    if (ballY < 0) {
+        velY *= -1;
+    }
 }

@@ -1,6 +1,6 @@
 // ct06
 // bouncing ball left right then all 4 edges
-
+let ballX
 function setup() {
     createCanvas(400,600);
     noStroke();

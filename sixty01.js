@@ -7,7 +7,7 @@ function setup() {
     noStroke();
     ballX = 50;
     ballY = 50;
-    velX = 4;
+    velX = 3;
     velY = 4;
 }
 function draw() {
